@@ -40,7 +40,7 @@ $(window).resize(function() {
 function timeElapse(date){
 	var timefirst = Date.parse('10 Mar 2023 00:01:00 GMT');
 	var current = Date();
-	var seconds = (Date.parse(current) - timefirst) / 1000;
+	var seconds = (Date.parse(current) - timefirst) / 1000 + 10;
 	var days = Math.floor(seconds / (3600 * 24));
 	seconds = seconds % (3600 * 24);
 	var hours = Math.floor(seconds / 3600);
