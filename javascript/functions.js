@@ -38,7 +38,7 @@ $(window).resize(function() {
 })(jQuery);
 
 function timeElapse(date){
-	var timefirst = Date.parse('20 Mar 2023 00:01:00 GMT');
+	var timefirst = Date.parse('10 Mar 2023 00:01:00 GMT');
 	var current = Date();
 	var seconds = (Date.parse(current) - timefirst) / 1000;
 	var days = Math.floor(seconds / (3600 * 24));
